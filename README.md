@@ -1,15 +1,14 @@
-# Previsão de gênero literário através de Machine Learning e NLP
-O foco desse projeto é criar um modelo de Machine Learning (ML) que possa prever o gênero literário de um livro através de uma breve descrição da obra.
-Foram utilizadas técnicas de Natural language processing (NLP), como term frequency-inverse document frequency com unigramas e bigramas, além de técnicas de Machine Learning para que o modelo possa ser usado em um problema de multilabel (onde o resultado pode ter várias classes ao invés de uma só), que nesse caso foi one-vs-rest.
+# Predict book genre
 
-## Ferramentas usadas
+## Intro
+This project aims to use Machine Learning models (ML) and Natural Language Processing (NLP) to predict a book genre based on it's description.
+
+## Data
+The data comes from [Goodreads Book Datasets](https://www.kaggle.com/bahramjannesarr/goodreads-book-datasets-10m) in Kaggle. You need to download them and process it using "get_book_genre.py" file, it took almost 24 hours to run on my PC, so be careful. The new generated data will be in the "new_data" folder. All the analysis is in the "genre_analysis.ipynb" file.
+
+## Requirements
 - Numpy
 - Pandas
 - NLTK
 - Scikit-learn
 - Regex
-
-## Próximos passos
-- Adicionar e avaliar outros modelos de ML;
-- Adicionar hiperparametrização nos modelos para obter resultados melhores;
-- Usar um dataset maior, tendo em vista que esse possuía cerca de 1300 livros;
