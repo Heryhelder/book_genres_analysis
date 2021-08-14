@@ -1,4 +1,4 @@
-# Predict book genre
+# Predict book genres
 
 ## Intro
 This project aims to use Machine Learning models (ML) and Natural Language Processing (NLP) to predict a book genre based on it's description.
